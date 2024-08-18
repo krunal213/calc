@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    Calculator calculator = new Calculator();
-        System.out.println("Addition is  : "+calculator.getResult(new Addition(1,2)));
+        int reuslt = calculator.getResult(new Addition(1,2));
+        System.out.println("Addition is  : "+reuslt);
     }
 }
